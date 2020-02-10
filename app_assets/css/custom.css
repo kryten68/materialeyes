@@ -1,0 +1,69 @@
+/* ------------------------------------------------------------------- */
+/*
+    Custom styles for app UI
+ */
+body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+
+.fullW {
+    width: 100% !important;
+}
+
+/* ------------------------------------------------------------------- */
+/*
+    Spacing and margin helpers:
+ */
+/*
+    Individual settings:
+ */
+.pad-b-5  { padding-bottom: 0.5em; }
+.pad-b-10 { padding-bottom: 1em; }
+.pad-t-5  { padding-top: 0.5em; }
+.pad-t-10 { padding-top: 1em; }
+.pad-l-5  { padding-left: 0.5em; }
+.pad-l-10 { padding-left: 1em; }
+.pad-r-5  { padding-right: 0.5em; }
+.pad-r-10 { padding-right: 1em; }
+
+/*
+    padding top and bottom:
+ */
+.pad-tb-5 { padding-bottom: 0.5em; padding-top:0.5em; }
+.pad-tb-10 { padding-bottom: 1em; padding-top:1em; }
+
+/*
+    No padding or margins at all:
+ */
+.noSpace {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/* ------------------------------------------------------------------- */
+
+/*
+    Additional font and text size controllers:
+ */
+
+.smallest {font-size: 50% !important}
+.small {font-size: 80% !important}
+.smallish {font-size: 90% !important}
+
+
+/* ------------------------------------------------------------------- */
+
+/*
+    Custom borders
+*/
+.noBorder { border: none !important }
+.noBorderRad { border-radius: 0px !important}
+
