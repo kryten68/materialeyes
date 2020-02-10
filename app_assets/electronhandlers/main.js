@@ -12,8 +12,11 @@ addContainerButton.addEventListener('click', function(event){
     const modalPath = path.join('file://', __dirname, 'modals/text-module/text-module.html')
 
     let win = new BrowserWindow({
-        width: 400,
-        height: 200,
+        width: 300,
+        height: 800,
+        resizable: true,
+        parent: "main.html",
+        modal: true,
         webPreferences: {
             nodeIntegration: true
         }
