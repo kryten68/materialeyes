@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^8.0.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "dependencies": {
     "nodemon": "^2.0.2"
